@@ -1,5 +1,5 @@
 # Recent Papers Related To Fuzzing
-remark: This web is only used for collecting and grouping the related paper. If there are any paper need to be updated, you can contribute PR.
+remark: This website is only used for collecting and grouping the related paper. If there are any paper need to be updated, you can contribute PR.
 
 # All Papers (Classification according to Publication)
 
@@ -53,6 +53,8 @@ remark: This web is only used for collecting and grouping the related paper. If 
     - [AFLNET: A Greybox Fuzzer for Network Protocols](#aflnet-a-greybox-fuzzer-for-network-protocols-icst-2020)
 
 - **Others 2020**
+    - [Fw‐fuzz: A code coverage‐guided fuzzing framework for network protocols on firmware](#fw%e2%80%90fuzz-a-code-coverage%e2%80%90guided-fuzzing-framework-for-network-protocols-on-firmware-2020)
+    - [Greybox Fuzzing Based on Ant Colony Algorithm](#greybox-fuzzing-based-on-ant-colony-algorithm-aina-2020)    
     - [MEUZZ: Smart Seed Scheduling for Hybrid Fuzzing](#meuzz-smart-seed-scheduling-for-hybrid-fuzzing)
     - [Binary-level Directed Fuzzing for Use-After-Free Vulnerabilities](#binary-level-directed-fuzzing-for-use-after-free-vulnerabilities)
     - [Smart seed selection-based effective black box fuzzing for IIoT protocol](#smart-seed-selection-based-effective-black-box-fuzzing-for-iiot-protocol)
@@ -135,6 +137,7 @@ remark: This web is only used for collecting and grouping the related paper. If 
     - [SeqFuzzer: An Industrial Protocol Fuzzing Framework in Deep Learning Perspective](#seqfuzzer-an-industrial-protocol-fuzzing-framework-in-deep-learning-perspective-icst-2019)
 
 - **Other 2019**
+    - [Suzzer: A Vulnerability-Guided Fuzzer Based on Deep Learning](#suzzer-a-vulnerability-guided-fuzzer-based-on-deep-learning-inscrypt-2019)
     - [ConFuz: A Concurrency Fuzzer](#confuzz-a-concurrency-fuzzer-2019)
     - [INSTRCR: Lightweight instrumentation optimization based on coverage-guided fuzz testing](#instrcr-lightweight-instrumentation-optimization-based-on-coverage-guided-fuzz-testing-ccet-2019)
     - [HFuzz: Towards automatic fuzzing testing of NB-IoT core network protocols implementations](#hfuzz-towards-automatic-fuzzing-testing-of-nb-iot-core-network-protocols-implementations-fgcs-2019)
@@ -274,7 +277,8 @@ remark: This web is only used for collecting and grouping the related paper. If 
 
 - [**IoT or protocols fuzzing**](#iot-or-protocols-fuzzing)
   - [AFLNET: A Greybox Fuzzer for Network Protocols (ICST 2020)](#aflnet-a-greybox-fuzzer-for-network-protocols-icst-2020)
-  - [Smart seed selection-based effective black box fuzzing for IIoT protocol (2020)](#smart-seed-selection-based-effective-black-box-fuzzing-for-iiot-protocol)
+  - [Smart seed selection-based effective black box fuzzing for IIoT protocol (2020)](#smart-seed-selection-based-effective-black-box-fuzzing-for-iiot-protocol-2020)
+  - [Fw‐fuzz: A code coverage‐guided fuzzing framework for network protocols on firmware (2020)](#fw%e2%80%90fuzz-a-code-coverage%e2%80%90guided-fuzzing-framework-for-network-protocols-on-firmware-2020)
   - [HFuzz: Towards automatic fuzzing testing of NB-IoT core network protocols implementations (FGCS 2019)](#hfuzz-towards-automatic-fuzzing-testing-of-nb-iot-core-network-protocols-implementations-fgcs-2019)
   - [FIRM-AFL: High-Throughput Greybox Fuzzing of IoT Firmware via Augmented Process Emulation (USENIX Security2019)](#firm-afl-high-throughput-greybox-fuzzing-of-iot-firmware-via-augmented-process-emulation-usenix-security2019)
   - [IoTFuzzer: Discovering Memory Corruptions in IoT Through App-based Fuzzing (NDSS 2018)](#iotfuzzer-discovering-memory-corruptions-in-iot-through-app-based-fuzzing-ndss-2018)
@@ -302,6 +306,7 @@ remark: This web is only used for collecting and grouping the related paper. If 
   - [HFL: Hybrid Fuzzing on the Linux Kernel (NDSS 2020)](#hfl-hybrid-fuzzing-on-the-linux-kernel-ndss-2020)
   - [PANGOLIN: Incremental Hybrid Fuzzing with Polyhedral Path Abstraction (S&P 2020)]()
   - [SAVIOR: Towards Bug-Driven Hybrid Testing (S&P 2020)](#savior-towards-bug-driven-hybrid-testing-sp-2020)
+  - [MEUZZ: Smart Seed Scheduling for Hybrid Fuzzing (2020)](#meuzz-smart-seed-scheduling-for-hybrid-fuzzing-2020)
   - [Deferred Concretization in Symbolic Execution via Fuzzing (ISSTA 2019)](#deferred-concretization-in-symbolic-execution-via-fuzzing-issta-2019)
   - [Send Hardest Problems My Way: Probabilistic Path Prioritization for Hybrid Fuzzing (NDSS 2019)](#send-hardest-problems-my-way-probabilistic-path-prioritization-for-hybrid-fuzzing--ndss-2019)
   - [Intriguer: Field-Level Constraint Solving for Hybrid Fuzzing (CCS 2019)](#intriguer-field-level-constraint-solving-for-hybrid-fuzzing-ccs-2019)
@@ -388,7 +393,9 @@ remark: This web is only used for collecting and grouping the related paper. If 
 
 - [**Learning-based Fuzzing**](#learning-based-fuzzing)
   - [FuzzGuard: Filtering out Unreachable Inputs in Directed Grey-box Fuzzing through Deep Learning (USENIX Security2020)](#fuzzguard-filtering-out-unreachable-inputs-in-directed-grey-box-fuzzing-through-deep-learning-usenix-security2020)
-  - [MEUZZ: Smart Seed Scheduling for Hybrid Fuzzing](#meuzz-smart-seed-scheduling-for-hybrid-fuzzing)
+  - [MEUZZ: Smart Seed Scheduling for Hybrid Fuzzing (2020)](#meuzz-smart-seed-scheduling-for-hybrid-fuzzing-2020)
+  - [Greybox Fuzzing Based on Ant Colony Algorithm (AINA 2020)](#greybox-fuzzing-based-on-ant-colony-algorithm-aina-2020)
+  - [Suzzer: A Vulnerability-Guided Fuzzer Based on Deep Learning](#suzzer-a-vulnerability-guided-fuzzer-based-on-deep-learning-inscrypt-2019)
   - [NeuFuzz: Efficient Fuzzing With Deep Neural Network (Access 2019)](#neufuzz-efficient-fuzzing-with-deep-neural-network-access-2019)
   - [LearnAFL: Greybox Fuzzing With Knowledge Enhancement (Access 2019)](#learnafl-greybox-fuzzing-with-knowledge-enhancement-access-2019)
   - [Learning-Guided Network Fuzzing for Testing Cyber-Physical System Defences (ASE 2019)](#learning-guided-network-fuzzing-for-testing-cyber-physical-system-defences-ase-2019)
@@ -583,9 +590,9 @@ We have evaluated classming on mainstream JVM implementations, including OpenJDK
 
 ### Different is Good: Detecting the Use of Uninitialized Variables through Differential Replay (CCS 2019)
 
+* <img src="image/zhihu.png">[Reading Note](https://zhuanlan.zhihu.com/p/131312498)
+ 
 * <img src="image/pdf_24px.png">[Paper](./Paper/CCS19_Different.pdf)
-
-* <img src="image/youdao_note_24px.png">[Reading Note](http://note.youdao.com/noteshare?id=5bfff2d122f4ef63d8d42a4a4efed410)
 
 **Abstract:** The use of uninitialized variables is a common issue. It could cause kernel information leak, which defeats the widely deployed security defense, i.e., kernel address space layout randomization (KASLR). Though a recent system called Bochspwn Reloaded reported multiple memory leaks in Windows kernels, how to effectively detect this issue is still largely behind.
 
@@ -723,6 +730,13 @@ The ideal solution for binary security analysis would be a static rewriter that 
 **Abstract:** Connections of cyber-physical system (CPS) components are gradually increasing owing to the introduction of the Industrial Internet of Things (IIoT). IIoT vulnerability analysis has become a major issue because complex skillful cyber-attacks on CPS systems exploit their zero-day vulnerabilities. However, current white box techniques for vulnerability analysis are difficult to use in real heterogeneous environments, where devices supplied by various manufacturers and diverse firmware versions are used. Therefore, we herein propose a novel protocol fuzzing test technique that can be applied in a heterogeneous environment. As seed configuration can significantly influence the test result in a black box test, we update the seed pool using test cases that travel different program paths compared to the seed. The input, output, and Delta times are used to determine if a new program area has been searched in the black box environment. We experimentally verified the effectiveness of the proposed.
 
 
+### Fw‐fuzz: A code coverage‐guided fuzzing framework for network protocols on firmware (2020)
+
+* <img src="image/pdf_24px.png">[Paper](https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.5756)
+
+**Abstract:** Fuzzing is an effective approach to detect software vulnerabilities utilizing changeable generated inputs. However, fuzzing the network protocol on the firmware of IoT devices is limited by inefficiency of test case generation, cross‐architecture instrumentation, and fault detection. In this article, we propose the Fw‐fuzz, a coverage‐guided and crossplatform framework for fuzzing network services running in the context of firmware on embedded architectures, which can generate more valuable test cases by introspecting program runtime information and using a genetic algorithm model. Specifically, we propose novel dynamic instrumentation in Fw‐fuzz to collect the running state of the firmware program. Then Fw‐fuzz adopts a genetic algorithm model to guide the generation of inputs with high code coverage. We fully implement the prototype system of Fw‐fuzz and conduct evaluations on network service programs of various architectures in MIPS, ARM, and PPC. By comparing with the protocol fuzzers Boofuzz and Peach in metrics of edge coverage, our prototype system achieves an average growth of 33.7% and 38.4%, respectively. We further verify six known vulnerabilities and discover 5 0‐day vulnerabilities with the Fw‐fuzz, which prove the validity and utility of our framework. The overhead of our system expressed as an additional 5% of memory growth.
+
+
 ### HFuzz: Towards automatic fuzzing testing of NB-IoT core network protocols implementations (FGCS 2019)
 
 * <img src="image/pdf_24px.png">[Paper](./Paper/FGCS19_HFuzz.pdf)
@@ -819,7 +833,9 @@ In this paper, we highlight the potential of applying fuzzing to find not just m
 
 ### Fuzzing File Systems via Two-Dimensional Input Space Exploration (S&P 2019)
 
-* <img src="image/youdao_note_24px.png">[Reading Note From BAIZE](http://note.youdao.com/noteshare?id=25d83408e46b014dd32df2cd5da72e41)
+* <img src="image/zhihu.png">[Reading Note](https://zhuanlan.zhihu.com/p/113426778)
+
+* <img src="image/wechat_24px.png">[Reading Note From BAIZE](https://mp.weixin.qq.com/s/d2VEQTLtHV5Z-li6M3KBFA)
 
 * <img src="image/pdf_24px.png">[Paper](./Paper/SP19_Fuzzing_File.pdf)
 
@@ -867,6 +883,8 @@ We designed and implemented MoonShine as an extension to Syzkaller, a state-of-t
 * <img src="image/blog_24px.jpg">[Reading Note](https://www.anquanke.com/post/id/188783#h3-12)
 
 * <img src="image/because.png">[Reading Note](https://github.com/bsauce/Some-Papers-About-Fuzzing/blob/master/xmind_picture/kAFL-%20Hardware-Assisted%20Feedback%20Fuzzing%20for%20OS%20Kernels-USENIX-2017.png)
+
+* <img src="image/youdao_note_24px.png">[Reading Note](https://github.com/ckxckx/aos_course/blob/f146e1f2091c0e8c4916da4b935423903aa4831f/review_kafl.md)
 
 * <img src="image/pdf_24px.png">[Paper](./Paper/USENIX18_Kafl.pdf)
 
@@ -1161,11 +1179,13 @@ In this paper, we pre­sent the de­sign and im­ple­men­ta­ti­on of GRI­MO
 
 ### ProFuzzer: On-the-fly Input Type Probing for Better Zero-day Vulnerability Discovery (S&P 2019)
 
-* <img src="image/youdao_note_24px.png">[Reading Note](http://note.youdao.com/noteshare?id=8e905e9d299cae5ceb3bbeac0591cfab&sub=9FCAB3A8AD4C48689095307EDD1A940A)
+* <img src="image/zhihu.png">[Reading Note](https://zhuanlan.zhihu.com/p/130901035)
 
 * <img src="image/pdf_24px.png">[Paper](./Paper/SP19_Profuzz.pdf)
 
-* <img src="image/github_24px.png">[Code](https://github.com/profuzzer)
+* <img src="image/ppt_24px.png">[Slides](https://www.inforsec.org/wp/wp-content/uploads/2020/01/%E6%B8%B8%E4%BC%9F-ProFuzzer-Wei-You.pdf)
+
+* <img src="image/github_24px.png">[POC](https://github.com/profuzzer)
 
 **Abstract:** Existing mutation based fuzzers tend to randomly mutate the input of a program without understanding its underlying syntax and semantics. In this paper, we propose a novel on-the-fly probing technique (called ProFuzzer) that automatically recovers and understands input fields of critical importance to vulnerability discovery during a fuzzing process and intelligently adapts the mutation strategy to enhance the chance of hitting zero-day targets. Since such probing is transparently piggybacked to the regular fuzzing, no prior knowledge of the input specification is needed. During fuzzing, individual bytes are first mutated and their fuzzing results are automatically analyzed to link those related together and identify the type for the field connecting them; these bytes are further mutated together following type-specific strategies, which substantially prunes the search space. We define the probe types generally across all applications, thereby making our technique application agnostic. Our experiments on standard benchmarks and real-world applications show that ProFuzzer substantially outperforms AFL and its optimized version AFLFast, as well as other state-of-art fuzzers including VUzzer, Driller and QSYM. Within two months, it exposed 42 zero-days in 10 intensively tested programs, generating 30 CVEs.
 
@@ -1401,9 +1421,7 @@ In this paper, we propose Sequence-coverage Directed Fuzzing (SCDF), a lightweig
 
 ### Hawkeye: Towards a Desired Directed Grey-box Fuzzer (CCS 2018)
 
-* <img src="image/youdao_note_24px.png">[Reading Note](https://note.youdao.com/ynoteshare1/index.html?id=6e9c7bba068ab022571e660ddd49c8fc&type=note#/)
-
-* <img src="image/because.png">[Reading Note](https://github.com/bsauce/Some-Papers-About-Fuzzing/blob/master/xmind_picture/Hawkeye-Towards%20a%20Desired%20Directed%20Grey-box%20Fuzzer-CCS2018.png)
+* <img src="image/zhihu.png">[Reading Note](https://zhuanlan.zhihu.com/p/130767857)
 
 * <img src="image/ppt_24px.png">[Slides](https://hongxuchen.github.io/pdf/hawkeye-slides.pdf)
 
@@ -1503,7 +1521,7 @@ Unfortunately, existing detection mechanisms for algorithmic complexity vulnerab
 
 ### Enhancing Memory Error Detection for Large-Scale Applications and Fuzz Testing (NDSS 2018)
 
-* <img src="image/youdao_note_24px.png">[Reading Note](http://note.youdao.com/noteshare?id=6228fef31b29b4ffbbbe1c1d80ef3fa0&sub=CB0D15A0D6394FA188C06B2BCB6367A3)
+* <img src="image/zhihu.png">[Reading Note](https://zhuanlan.zhihu.com/p/130804461)
 
 * <img src="image/pdf_24px.png">[Paper](./Paper/NDSS18_Enhancing_Paper.pdf)
 
@@ -1539,13 +1557,27 @@ AddressSanitizer achieves efficiency without sacrificing comprehensiveness. Its 
 **Abstract:** Fuzzing is one of the most effective approaches for identifying security vulnerabilities. As a state-of-the-art coverage-based greybox fuzzer, AFL is a highly effective and widely used technique. However, AFL allocates excessive energy (i.e.,the number of test cases generated by the seed) to seeds that exercise the high-frequency paths and can not adaptively adjust the energy allocation, thus wasting a significant amount of energy. Moreover, the current Markov model for modeling coverage-based greybox fuzzing is not profound enough. This paper presents a variant of the Adversarial Multi-Armed Bandit model for modeling AFL’s power schedule process. We first explain the challenges in AFL’s scheduling algorithm by using the reward probability that generates a test case for discovering a new path. Moreover, we illustrated the three states of the seeds set and developed a unique adaptive scheduling algorithm as well as a probability-based search strategy. These approaches are implemented on top of AFL in an adaptive energy-saving greybox fuzzer called EcoFuzz. EcoFuzz is examined against other six AFL-type tools on 14 real-world subjects over 490 CPU days. According to the results, EcoFuzz could attain 214% of the path coverage of AFL with reducing 32% test cases generation of that of AFL. Besides, EcoFuzz identified 12 vulnerabilities in GNU Binutils and other software. We also extended EcoFuzz to test some IoT devices and found a new vulnerability in the SNMP component.
 
 
-### MEUZZ: Smart Seed Scheduling for Hybrid Fuzzing
+### MEUZZ: Smart Seed Scheduling for Hybrid Fuzzing (2020)
 
 * <img src="image/pdf_24px.png">[Paper](https://arxiv.org/pdf/2002.08568.pdf)
 
 **Abstract:** Seed scheduling is a prominent factor in determining the yields of hybrid fuzzing. Existing hybrid fuzzers schedule seeds based on fixed heuristics that aim to predict input utilities. However, such heuristics are not generalizable as there exists no one-size-fits-all rule applicable to different programs. They may work well on the programs from which they were derived, but not others.
 To overcome this problem, we design a Machine learning-Enhanced hybrid fUZZing system (MEUZZ), which employs supervised machine learning for adaptive and generalizable seed scheduling. MEUZZ determines which new seeds are expected to produce better fuzzing yields based on the knowledge learned from past seed scheduling decisions made on the same or similar programs. MEUZZ's learning is based on a series of features extracted via code reachability and dynamic analysis, which incurs negligible runtime overhead (in microseconds). Moreover, MEUZZ automatically infers the data labels by evaluating the fuzzing performance of each selected seed. As a result, MEUZZ is generally applicable to, and performs well on, various kinds of programs.
 Our evaluation shows MEUZZ significantly outperforms the state-of-the-art grey-box and hybrid fuzzers, achieving 27.1% more code coverage than QSYM. The learned models are reusable and transferable, which boosts fuzzing performance by 7.1% on average and improves 68% of the 56 cross-program fuzzing campaigns. MEUZZ discovered 47 deeply hidden and previously unknown bugs--with 21 confirmed and fixed by the developers--when fuzzing 8 well-tested programs with the same configurations as used in previous work.
+
+
+### Greybox Fuzzing Based on Ant Colony Algorithm (AINA 2020)
+
+* <img src="image/pdf_24px.png">[Paper](https://link.springer.com/chapter/10.1007%2F978-3-030-44041-1_112)
+
+**Abstract:** Greybox fuzzing technology is a kind of fuzzing technology that is commonly used now and effective. This fuzzing technology can guide the direction of fuzzing by acquiring the execution information of some paths in the program. However, the gray box fuzzy testing technology commonly used in the market today evaluates the seed of a sample by its path depth, execution time, and whether there is a new path to judge the quality of a sample, which is often not comprehensive. This article will propose a sample seed screening technology that uses ant colony algorithm to control gray box fuzzy test. By estimating the transition probability between the basic block and the basic block, we can determine what kind of seed sample is more likely to mutate into a new sample file. Based on this, the order and degree of fuzzing of the samples are determined, so as to improve the efficiency of fuzzing.
+
+
+### Suzzer: A Vulnerability-Guided Fuzzer Based on Deep Learning (Inscrypt 2019)
+
+* <img src="image/pdf_24px.png">[Paper](https://link.springer.com/chapter/10.1007%2F978-3-030-42921-8_8)
+
+**Abstract:** Fuzzing is a simple and effective way to find software bugs. Most state-of-the-art fuzzers focus on improving code coverage to enhance the possibility of causing crashes. However, a software program oftentimes has only a fairly small portion that contains vulnerabilities, leading coverage-based fuzzers to work poorly most of the time. To address this challenge, we propose Suzzer, a vulnerability-guided fuzzer, to concentrate on testing code blocks that are more likely to contain bugs. Suzzer has a light-weight static analyzer to extract ACFG vector from target programs. In order to determine which code blocks are more vulnerable, Suzzer is equipped with prediction models which get the prior probability of each ACFG vector. The prediction models will guide Suzzer to generate test inputs with higher vulnerability scores, thus improving the efficiency of finding bugs. We evaluate Suzzer using two different datasets: artificial LAVA-M dataset and a set of real-world programs. The results demonstrate that in the best case of short-term fuzzing, Suzzer saved 64.5% of the time consumed to discover vulnerabilities compared to VUzzer.
 
 
 ### MOPT: Optimize Mutation Scheduling for Fuzzers (USENIX Security2019)
@@ -1795,6 +1827,9 @@ We instantiate our approach to the problem of fuzzing smart contracts, a domain 
 ### FANS: Fuzzing Android Native System Services via Automated Interface Analysis (USENIX Security2019)
 
 * <img src="image/pdf_24px.png">[Paper](./Paper/USENIX20_Fans.pdf)
+
+* <img src="image/github_24px.png">[Code](https://github.com/iromise/fans)
+
 
 **Abstract:** Android native system services provide essential supports and fundamental functionalities for user apps. Finding vulnerabilities in them is crucial for Android security. Fuzzing is one of the most popular vulnerability discovery solutions, yet faces several challenges when applied to Android native system services. First, such services are invoked via a special interprocess communication (IPC) mechanism, namely binder, via service-specific interfaces. Thus, the fuzzer has to recognize all interfaces and generate interface-specific test cases automatically. Second, effective test cases should satisfy the interface model of each interface. Third, the test cases should also satisfy the semantic requirements, including variable dependencies and interface dependencies.
 
