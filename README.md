@@ -18,9 +18,10 @@ remark: This website is only used for collecting and grouping the related paper.
 
 - **USENIX Security 2021**
   - [UNIFUZZ: A Holistic and Pragmatic Metrics-Driven Platform for Evaluating Fuzzers](#unifuzz-a-holistic-and-pragmatic-metrics-driven-platform-for-evaluating-fuzzers-usenix-security2021)
+  - [Nyx: Greybox Hypervisor Fuzzing using Fast Snapshots and Affine Types](#nyx-greybox-hypervisor-fuzzing-using-fast-snapshots-and-affine-types-usenix-security2021)
 
 - **CCS 2020**
-  - [FREEDOM: Engineering a State-of-the-Art DOM Fuzzer]
+  - [FREEDOM: Engineering a State-of-the-Art DOM Fuzzer](#freedom-engineering-a-state-of-the-art-dom-fuzzer-ccs-2020)
   - [SQUIRREL: Testing Database Management Systems with Language Validity and Coverage Feedback](#squirrel-testing-database-management-systems-with-language-validity-and-coverage-feedback-ccs-2020)
 
 - **ASE 2020**
@@ -37,14 +38,15 @@ remark: This website is only used for collecting and grouping the related paper.
 - **FSE 2020**
   - [Fuzzing: On the Exponential Cost of Vulnerability Discovery](#fuzzing-on-the-exponential-cost-of-vulnerability-discovery-fse-2020)
   - [Boosting Fuzzer Efficiency: An Information Theoretic Perspective](#boosting-fuzzer-efficiency-an-information-theoretic-perspective-fse-2020)
-  - [CrFuzz: Fuzzing Multi-purpose Programs through Input Validation]
+  - [CrFuzz: Fuzzing Multi-purpose Programs through Input Validation](#crfuzz-fuzzing-multi-purpose-programs-through-input-validation-fse-2020)
   - [Detecting Critical Bugs in SMT Solvers using Blackbox Mutational Fuzzing](#detecting-critical-bugs-in-smt-solvers-using-blackbox-mutational-fuzzing-fse)
-  - [Intelligent REST API Data Fuzzing]
+  - [Intelligent REST API Data Fuzzing](#intelligent-rest-api-data-fuzzing-fse-2020)
   - [MTFuzz: Fuzzing with a Multi-task Neural Network](#mtfuzz-fuzzing-with-a-multi-task-neural-network-fse-2020)
 
 - **ACSAC 2020**
   - [DPIFuzz: A Differential Fuzzing Framework to Detect DPI Elusion Strategies for QUIC](#dpifuzz-a-differential-fuzzing-framework-to-detect-dpi-elusion-strategies-for-quic-acsac-2020)
   - [Cupid: Automatic Fuzzer Selection for Collaborative Fuzzing](#cupid-automatic-fuzzer-selection-for-collaborative-fuzzing-acsac-2020)
+  - [OmniFuzz: A Flexible Framework for Expediting Bug Finding by Leveraging Past (Mis-)Behavior to Discover New Bugs](#omnifuzz-a-flexible-framework-for-expediting-bug-finding-by-leveraging-past-mis-behavior-to-discover-new-bugs-acsac-2020)
 
 - **PLDI 2020**
   - [Validating SMT Solvers via Semantic Fusion](#validating-smt-solvers-via-semantic-fusion-pldi-2020)
@@ -103,6 +105,10 @@ remark: This website is only used for collecting and grouping the related paper.
   - [PathAFL: Path-Coverage Assisted Fuzzing](#pathafl-path-coverage-assisted-fuzzing-asia-ccs-2020)
 
 - **Others 2020**
+  - [Fuzzing Technique in Web Applications and Beyond (MCTE 2020)](#fuzzing-technique-in-web-applications-and-beyond-mcte-2020)
+  - [Vulnerability Detection in SIoT Applications: A Fuzzing Method on their Binaries (IEEE Transactions on Network Science and Engineering 2020)](#vulnerability-detection-in-siot-applications-a-fuzzing-method-on-their-binaries-ieee-transactions-on-network-science-and-engineering-2020)
+  - [MaxAFL: Maximizing Code Coverage with a Gradient-Based Optimization Technique (Electronics 2020)](#maxafl-maximizing-code-coverage-with-a-gradient-based-optimization-technique-electronics-2020)
+  - [CSEFuzz: Fuzz Testing Based on Symbolic Execution (Access 2020)](#csefuzz-fuzz-testing-based-on-symbolic-execution-access-2020)
   - [A Quantitative Comparison of Covera (AST 2020)](#a-quantitative-comparison-of-covera-ast-2020)
   - [Finding Bugs in File Systems with an Extensible Fuzzing Framework (TOS 2020)](#finding-bugs-in-file-systems-with-an-extensible-fuzzing-framework-tos-2020)
   - [ICS Protocol Fuzzing: Coverage Guided Packet Crack and Generation (DAC 2020)](#ics-protocol-fuzzing-coverage-guided-packet-crack-and-generation-dac-2020)
@@ -222,6 +228,7 @@ remark: This website is only used for collecting and grouping the related paper.
   - [CollAFL: Path Sensitive Fuzzing](#collafl-path-sensitive-fuzzing-sp-2018)
 
 - **USENIX Security 2018**
+  - [FUZE: Towards Facilitating Exploit Generation for Kernel Use-After-Free Vulnerabilities]
   - [MoonShine: Optimizing OS Fuzzer Seed Selection with Trace Distillation](#moonshine-optimizing-os-fuzzer-seed-selection-with-trace-distillation-usenix-security2018)
   - [QSYM : A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing](#qsym-a-practical-concolic-execution-engine-tailored-for-hybrid-fuzzing-usenix-security2018)
 
@@ -365,6 +372,7 @@ remark: This website is only used for collecting and grouping the related paper.
   - [INSTRIM Lightweight Instrumentation for Coverage-guided Fuzzing (NDSS 2018 workshop)](#instrim-lightweight-instrumentation-for-coverage-guided-fuzzing-ndss-2018-workshop)
 
 - [**IoT or protocols fuzzing**](#iot-or-protocols-fuzzing)
+  - [Vulnerability Detection in SIoT Applications: A Fuzzing Method on their Binaries (IEEE Transactions on Network Science and Engineering 2020)](#vulnerability-detection-in-siot-applications-a-fuzzing-method-on-their-binaries-ieee-transactions-on-network-science-and-engineering-2020)
   - [Analysis of DTLS Implementations Using Protocol State Fuzzing (USENIX Security2020)](#analysis-of-dtls-implementations-using-protocol-state-fuzzing-usenix-security2020)
   - [Frankenstein: Advanced Wireless Fuzzing to Exploit New Bluetooth Escalation Targets (USENIX Security2020)](#frankenstein-advanced-wireless-fuzzing-to-exploit-new-bluetooth-escalation-targets-usenix-security2020)
   - [A deep convolution generative adversarial networks based fuzzing framework for industry control protocols](#a-deep-convolution-generative-adversarial-networks-based-fuzzing-framework-for-industry-control-protocols)
@@ -411,12 +419,14 @@ remark: This website is only used for collecting and grouping the related paper.
   - [Razzer: Finding Kernel Race Bugs through Fuzzing (S&P 2019)](#razzer-finding-kernel-race-bugs-through-fuzzing-sp-2019)
   - [Unicorefuzz: On the Viability of Emulation for Kernelspace Fuzzing (USENIX WOOT'19)](#unicorefuzz-on-the-viability-of-emulation-for-kernelspace-fuzzing-usenix-woot19)
   - [MoonShine: Optimizing OS Fuzzer Seed Selection with Trace Distillation (USENIX Security2018)](#moonshine-optimizing-os-fuzzer-seed-selection-with-trace-distillation-usenix-security2018)
+  - [FUZE: Towards Facilitating Exploit Generation for Kernel Use-After-Free Vulnerabilities (USENIX Security2018)](#fuze-towards-facilitating-exploit-generation-for-kernel-use-after-free-vulnerabilities-usenix-security2018)
   - [CAB-Fuzz: Practical Concolic Testing Techniques for COTS Operating Systems (Usenix Security2017)](#cab-fuzz-practical-concolic-testing-techniques-for-cots-operating-systems-usenix-security2017)
   - [kAFL: Hardware-Assisted Feedback Fuzzing for OS Kernels (Usenix Security2017)](#kafl-hardware-assisted-feedback-fuzzing-for-os-kernels-usenix-security2017)
   - [DIFUZE: Interface aware fuzzing for kernel drivers (CCS 2017)](#difuze-interface-aware-fuzzing-for-kernel-drivers-ccs-2017)
   - [IMF: Inferred Model-based Fuzzer (CCS 2017)](#imf-inferred-model-based-fuzzer-ccs-2017)
 
 - [**Hybrid Fuzzing**](#hybrid-fuzzing)
+  - [CSEFuzz: Fuzz Testing Based on Symbolic Execution (Access 2020)](#csefuzz-fuzz-testing-based-on-symbolic-execution-access-2020)
   - [Sequence directed hybrid fuzzing (SANER 2020)](#sequence-directed-hybrid-fuzzing-saner-2020)
   - [HFL: Hybrid Fuzzing on the Linux Kernel (NDSS 2020)](#hfl-hybrid-fuzzing-on-the-linux-kernel-ndss-2020)
   - [PANGOLIN: Incremental Hybrid Fuzzing with Polyhedral Path Abstraction (S&P 2020)](#pangolin-incremental-hybrid-fuzzing-with-polyhedral-path-abstraction-sp-2020)
@@ -434,7 +444,8 @@ remark: This website is only used for collecting and grouping the related paper.
   - [Hybrid Fuzz Testing - Discovering Software Bugs via Fuzzing and Symbolic Execution (2012)](#hybrid-fuzz-testing---discovering-software-bugs-via-fuzzing-and-symbolic-execution-2012)
   - [Hybrid concolic testing (2007)](#hybrid-concolic-testing-2007)
 
-- [**Path \ Deeply nested branches \ Addressing Magic bytes \ checksum**](#path--deeply-nested-branches--addressing-magic-bytes--checksum)  
+- [**Coverage \ Path \ Magic bytes \ Checksum**](#coverage--path--magic-bytes--checksum)  
+  - [MaxAFL: Maximizing Code Coverage with a Gradient-Based Optimization Technique (Electronics 2020)](#maxafl-maximizing-code-coverage-with-a-gradient-based-optimization-technique-electronics-2020)
   - [PathAFL: Path-Coverage Assisted Fuzzing (ASIA CCS 2020)](#pathafl-path-coverage-assisted-fuzzing-asia-ccs-2020)
   - [Zeror: Speed Up Fuzzing with Coverage-sensitive Tracing and Scheduling (ASE 2020)](#zeror-speed-up-fuzzing-with-coverage-sensitive-tracing-and-scheduling-ase-2020)
   - [Not All Coverage Measurements Are Equal: Fuzzing by Coverage Accounting for Input Prioritization (NDSS 2020)](#not-all-coverage-measurements-are-equal-fuzzing-by-coverage-accounting-for-input-prioritization-ndss-2020)
@@ -518,6 +529,7 @@ remark: This website is only used for collecting and grouping the related paper.
   - [Program-Adaptive Mutational Fuzzing (S&P 2015)](#program-adaptive-mutational-fuzzing-sp-2015)
 
 - [**Learning-based Fuzzing**](#learning-based-fuzzing)
+  - [OmniFuzz: A Flexible Framework for Expediting Bug Finding by Leveraging Past (Mis-)Behavior to Discover New Bugs (ACSAC 2020)](#omnifuzz-a-flexible-framework-for-expediting-bug-finding-by-leveraging-past-mis-behavior-to-discover-new-bugs-acsac-2020)
   - [Learning Input Tokens for Effective Fuzzing (ISSTA 2020)](#learning-input-tokens-for-effective-fuzzing-issta-2020)
   - [MTFuzz: Fuzzing with a Multi-task Neural Network (FSE 2020)](#mtfuzz-fuzzing-with-a-multi-task-neural-network-fse-2020)
   - [FuzzGuard: Filtering out Unreachable Inputs in Directed Grey-box Fuzzing through Deep Learning (USENIX Security2020)](#fuzzguard-filtering-out-unreachable-inputs-in-directed-grey-box-fuzzing-through-deep-learning-usenix-security2020)
@@ -541,8 +553,7 @@ remark: This website is only used for collecting and grouping the related paper.
   - [CAGFuzz: Coverage-Guided Adversarial Generative Fuzzing Testing of Deep Learning Systems 2019](#cagfuzz-coverage-guided-adversarial-generative-fuzzing-testing-of-deep-learning-systems-2019)
   - [DeepHunter: A Coverage-Guided Fuzz Testing Framework for Deep Neural Networks (ISSTA 2019)](#deephunter-a-coverage-guided-fuzz-testing-framework-for-deep-neural-networks-issta-2019)
   - [DLFuzz: Differential Fuzzing Testing of Deep Learning Systems (FSE 2018)](#dlfuzz-differential-fuzzing-testing-of-deep-learning-systems-fse-2018)
-  - [TensorFuzz: Debugging Neural Networks with Coverage-Guided Fuzzing (2018)](#tensorfuzz-debugging-neural-networks-with-coverage-guided-fuzzing-2018)
-  - [Coverage-Guided Fuzzing for Deep Neural Networks (2018)](#coverage-guided-fuzzing-for-deep-neural-networks-2018)
+  - [TensorFuzz: Debugging Neural Networks with Coverage-Guided Fuzzing (ICML 2019)](#tensorfuzz-debugging-neural-networks-with-coverage-guided-fuzzing-icml-2019)
 
 - [**Data Flow Sensitive Fuzzing**](#data-flow-sensitive-fuzzing)
   - [GREYONE Data Flow Sensitive Fuzzing (USENIX Security2020)](#greyone-data-flow-sensitive-fuzzing-usenix-security2020)
@@ -572,17 +583,20 @@ remark: This website is only used for collecting and grouping the related paper.
   - [ct-fuzz: Fuzzing for Timing Leaks (ICST 2020)](#ct-fuzz-fuzzing-for-timing-leaks-icst-2020)
   - [DifFuzz: Differential Fuzzing for Side-Channel Analysis (ICSE 2019)](#diffuzz-differential-fuzzing-for-side-channel-analysis-icse-2019)
 
-- [**API Fuzzing**]()
-  - [Intelligent REST API Data Fuzzing (FSE 2020)]
+- [**API Fuzzing**](#api-fuzzing)
+  - [Intelligent REST API Data Fuzzing (FSE 2020)](#intelligent-rest-api-data-fuzzing-fse-2020)
   - [REST-ler: Stateful REST API Fuzzing (ICSE 2019)](#rest-ler-stateful-rest-api-fuzzing-icse-2019)
 
 - [**Other Interesting Fuzzing**](#other-interesting-fuzzing)
+  - [Fuzzing Technique in Web Applications and Beyond (MCTE 2020)](#fuzzing-technique-in-web-applications-and-beyond-mcte-2020)
+  - [Nyx: Greybox Hypervisor Fuzzing using Fast Snapshots and Affine Types](#nyx-greybox-hypervisor-fuzzing-using-fast-snapshots-and-affine-types-usenix-security2021)
+  - [FREEDOM: Engineering a State-of-the-Art DOM Fuzzer (CCS 2020)](#freedom-engineering-a-state-of-the-art-dom-fuzzer-ccs-2020)
   - [SQUIRREL: Testing Database Management Systems with Language Validity and Coverage Feedback (CCS 2020)](#squirrel-testing-database-management-systems-with-language-validity-and-coverage-feedback-ccs-2020)
   - [BigFuzz: Efficient Fuzz Testing for Data Analytics using Framework Abstraction (ASE 2020)](#bigfuzz-efficient-fuzz-testing-for-data-analytics-using-framework-abstraction-ase-2020)
   - [MoFuzz: A Fuzzer Suite for Testing Model-Driven Software Engineering Tools (ASE 2020)](#mofuzz-a-fuzzer-suite-for-testing-model-driven-software-engineering-tools-ase-2020)
   - [AFL++ : Combining Incremental Steps of Fuzzing Research (USENIX Woot2020)](#afl-combining-incremental-steps-of-fuzzing-research-usenix-woot2020)
   - [Active Fuzzing for Testing and Securing Cyber-Physical Systems (ISSTA 2020)](#active-fuzzing-for-testing-and-securing-cyber-physical-systems-issta-2020)
-  - [CrFuzz: Fuzzing Multi-purpose Programs through Input Validation (FSE 2020)]
+  - [CrFuzz: Fuzzing Multi-purpose Programs through Input Validation (FSE 2020)](#crfuzz-fuzzing-multi-purpose-programs-through-input-validation-fse-2020)
   - [SpecFuzz: Bringing Spectre-type vulnerabilities to the surface (USENIX Security2020)](#specfuzz-bringing-spectre-type-vulnerabilities-to-the-surface-usenix-security2020)
   - [FuzzGen: Automatic Fuzzer Generation (USENIX Security2020)](#fuzzgen-automatic-fuzzer-generation-usenix-security2020)
   - [USBFuzz: A Framework for Fuzzing USB Drivers by Device Emulation (USENIX Security2020)](#usbfuzz-a-framework-for-fuzzing-usb-drivers-by-device-emulation-usenix-security2020)
@@ -950,6 +964,13 @@ The ideal solution for binary security analysis would be a static rewriter that 
 
 # IoT or protocols fuzzing
 
+### Vulnerability Detection in SIoT Applications: A Fuzzing Method on their Binaries (IEEE Transactions on Network Science and Engineering 2020)
+
+* <img src="image/pdf_24px.png">[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9259242)
+
+**Abstract:** SIoT enables devices to communicate with each other automatically, which is not reliable when applications in SIoT are vulnerable. To improve the security of SIoT, different techniques have been employed so far, mainly to detect vulnerabilities in SIoT applications. Among the detection techniques, fuzzing is one of the most effective ones that can significantly improve the security of SIoT applications. However, the existing fuzzing methods have three problems. First of all, the schemes to instrument target binaries cause high memory overhead because they instrument at all edges to obtain the coverage information. Moreover, they introduce a severe problem called edge collision, i.e., two different edges are deemed the same during fuzzing. Thirdly, none of the existing fuzzers conduct fuzzing using path coverage because path coverage has high memory overhead. In this paper, we propose BECFuzz to resolve the above three problems. BECFuzz instruments at specific edges, and conducts fuzzing based on both edge coverage and path coverage, which greatly improves its effectiveness. We implement our BECFuzz based on two typical fuzzers which are widely recognised as baselines, AFL and AFLFast, and run experiments on 18 real-world programs. The results demonstrate that our method suppresses the state-of-art fuzzers in performance.
+
+
 ### Analysis of DTLS Implementations Using Protocol State Fuzzing (USENIX Security2020)
 
 * <img src="image/pdf_24px.png">[Paper](https://www.usenix.org/system/files/sec20fall_fiterau-brostean_prepub.pdf)
@@ -1180,7 +1201,14 @@ The key idea is to mutate operators of conforming types within the seed formulas
 
 ### Validating SMT Solvers via Semantic Fusion (PLDI 2020)
 
+* <img src="image/youtube.png">[Video](https://youtu.be/hEWpbO5yXPw)
+
 * <img src="image/pdf_24px.png">[Paper](https://wintered.github.io/papers/winterer-zhang-su-pldi20.pdf)
+
+* <img src="image/pdf_24px.png">[Slides](https://testsmt.github.io/slides/pldi20-semantic-fusion.pdf)
+
+* <img src="image/github_24px.png">[Code](https://github.com/testsmt/yinyang)
+
 
 **Abstract:** We introduce Semantic Fusion, a general, effective methodology for validating Satisfiability Modulo Theory (SMT) solvers. Our key idea is to fuse two existing equisatisfiable (i.e., both satisfiable or unsatisfiable) formulas into a new formula that combines the structures of its ancestors in a novel manner and preserves the satisfiability by construction. This fused formula is then used for validating SMT solvers. We realized Semantic Fusion as YinYang, a practical SMT solver testing tool. During four months of extensive testing, YinYang has found 45 confirmed, unique bugs in the default arithmetic and string solvers of Z3 and CVC4, the two state-of-the-art SMT solvers. Among these, 41 have already been fixed by the developers. The majority (29/45) of these bugs expose critical soundness issues. Our bug reports and testing effort have been well-appreciated by SMT solver developers.
 
@@ -1291,7 +1319,7 @@ In this paper, we highlight the potential of applying fuzzing to find not just m
 
 * <img src="image/wechat_24px.png">[Reading Note From BAIZE](https://mp.weixin.qq.com/s/nq1A12Dra2vUiQWbtLXctg)
 
-* <img src="image/GoSSIP_note.jpg">[Reading Note from GoSSIP](https://loccs.sjtu.edu.cn/gossip/blog/2019/03/06/razzer-finding-kernel-race-bugs-through-fuzzing/)
+* <img src="image/GoSSIP_note.jpg">[Reading Note from GoSSIP](https://securitygossip.com/blog/2019/03/06/razzer-finding-kernel-race-bugs-through-fuzzing/)
 
 * <img src="image/blog_24px.jpg">[Reading Note](https://www.jianshu.com/p/43ced9660257)
 
@@ -1319,6 +1347,23 @@ In this paper, we highlight the potential of applying fuzzing to find not just m
 **Abstract:** OS fuzzers primarily test the system call interface between the OS kernel and user-level applications for security vulnerabilities. The effectiveness of evolutionary OS fuzzers depends heavily on the quality and diversity of their seed system call sequences. However, generating good seeds for OS fuzzing is a hard problem as the behavior of each system call depends heavily on the OS kernel state created by the previously executed system calls. Therefore, popular evolutionary OS fuzzers often rely on hand-coded rules for generating valid seed sequences of system calls that can bootstrap the fuzzing process. Unfortunately, this approach severely restricts the diversity of the seed system call sequences and therefore limits the effectiveness of the fuzzers.
 In this paper, we develop MoonShine, a novel strategy for distilling seeds for OS fuzzers from system call traces of real-world programs while still maintaining the dependencies across the system calls. MoonShine leverages light-weight static analysis for efficiently detecting dependencies across different system calls.
 We designed and implemented MoonShine as an extension to Syzkaller, a state-of-the-art evolutionary fuzzer for the Linux kernel. Starting from traces containing 2.8 million system calls gathered from 3,220 real-world programs, MoonShine distilled down to just over 14,000 calls while preserving 86% of the original code coverage. Using these distilled seed system call sequences, MoonShine was able to improve Syzkaller's achieved code coverage for the Linux kernel by 13% on average. MoonShine also found 14 new vulnerabilities in the Linux kernel that were not found by Syzkaller.
+
+
+### FUZE: Towards Facilitating Exploit Generation for Kernel Use-After-Free Vulnerabilities (USENIX Security2018)
+
+* <img src="image/because.png">[Reading Note](https://www.jianshu.com/p/cfe7c9f7e852?utm_campaign=hugo)
+  
+* <img src="image/pdf_24px.png">[Paper](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-wu_0.pdf)
+
+* <img src="image/ppt_24px.png">[Slides](https://www.usenix.org/sites/default/files/conference/protected-files/security18_slides_wu.pdf)
+
+* <img src="image/github_24px.png">[Code](https://github.com/ww9210/Linux_kernel_exploits)
+
+**Abstract:** Software vendors usually prioritize their bug remediation based on ease of their exploitation. However, accurately determining exploitability typically takes tremendous hours and requires significant manual efforts. To address this issue, automated exploit generation techniques can be adopted. In practice, they however exhibit an insufficient ability to evaluate exploitability particularly for the kernel Use-After-Free (UAF) vulnerabilities. This is mainly because of the complexity of UAF exploitation as well as the scalability of an OS kernel.
+
+In this paper, we therefore propose FUZE, a new framework to facilitate the process of kernel UAF exploitation. The design principle behind this technique is that we expect the ease of crafting an exploit could augment a security analyst with the ability to expedite exploitability evaluation. Technically, FUZE utilizes kernel fuzzing along with symbolic execution to identify, analyze and evaluate the system calls valuable and useful for kernel UAF exploitation.
+
+To demonstrate the utility of FUZE, we implement FUZE on a 64-bit Linux system by extending a binary analysis framework and a kernel fuzzer. Using 15 real-world kernel UAF vulnerabilities on Linux systems, we then demonstrate FUZE could not only escalate kernel UAF exploitability and but also diversify working exploits. In addition, we show that FUZE could facilitate security mitigation bypassing, making exploitability evaluation less labor-intensive and more efficient.
 
 
 ### kAFL: Hardware-Assisted Feedback Fuzzing for OS Kernels (Usenix Security2017)
@@ -1368,6 +1413,13 @@ In this paper, we approach the problem of coverage-guided kernel fuzzing in an O
 
 
 # Hybrid Fuzzing:
+
+### CSEFuzz: Fuzz Testing Based on Symbolic Execution (Access 2020)
+
+* <img src="image/pdf_24px.png">[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9222017)
+
+**Abstract:** Fuzz testing has been successful in finding defects of various software packages. These defects include file parsing, image processing, Internet browsers, and network protocols. However, the quality of the initial seed test cases greatly influences the coverage and defect detection capability of fuzz testing. To address this issue, we propose CSEFuzz, a fuzz testing approach based on symbolic execution for defect detection. First, CSEFuzz generates candidate test cases by symbolic execution and collects coverage information of the test cases. Then, CSEFuzz extracts the test-case templates of the test cases and selects a set of test-case templates according to specific coverage criteria. Finally, CSEFuzz selects test cases according to the selected test-case templates, and the selected test cases are used as initial seed test cases for fuzz testing. Experiments are conducted on 11 open-source programs. The results show that in comparison with afl-cmin, which is the test-case selection command of Kelinci, CSEFuzz with a path coverage criterion reduces the time costs of the initial seed test selection and verification by 94.26%. In addition, compared with afl-cmin, 32 more paths are covered and 16 more defects are detected by CSEFuzz
+
 
 ### Sequence directed hybrid fuzzing (SANER 2020)
 
@@ -1508,8 +1560,14 @@ Our evaluation shows that QSYM does not just outperform state-of-the-art fuzzers
 **Abstract:** We present hybrid concolic testing, an algorithm that interleaves random testing with concolic execution to obtain both a deep and a wide exploration of program state space. Our algorithm generates test inputs automatically by interleaving random testing until saturation with bounded exhaustive symbolic exploration of program points. It thus combines the ability of random search to reach deep program states quickly together with the ability of concolic testing to explore states in a neighborhood exhaustively. We have implemented our algorithm on top of CUTE and applied it to obtain better branch coverage for an editor implementation (VIM 5.7, 150K lines of code) as well as a data structure implementation in C. Our experiments suggest that hybrid concolic testing can handle large programs and provide, for the same testing budget, almost 4× the branch coverage than random testing and almost 2× that of concolic testing.
 
 
+# Coverage \ Path \ Magic bytes \ Checksum
 
-# Path \ Deeply nested branches \ Addressing Magic bytes \ checksum: 
+### MaxAFL: Maximizing Code Coverage with a Gradient-Based Optimization Technique (Electronics 2020)
+
+* <img src="image/pdf_24px.png">[Paper](https://www.mdpi.com/2079-9292/10/1/11/pdf)
+
+**Abstract:** Evolutionary fuzzers generally work well with typical software programs because of their simple algorithm. However, there is a limitation that some paths with complex constraints cannot be tested even after long execution. Fuzzers based on concolic execution have emerged to address this issue. The concolic execution fuzzers also have limitations in scalability. Recently, the gradient-based fuzzers that use a gradient to mutate inputs have been introduced. Gradient-based fuzzers can be applied to real-world programs and achieve high code coverage. However, there is a problem that the existing gradient-based fuzzers require heavyweight analysis or sufficient learning time. In this paper, we propose a new type of gradient-based fuzzer, MaxAFL, to overcome the limitations of existing gradient-based fuzzers. Our approach constructs an objective function through fine-grained static analysis. After constructing a well-made objective function, we can apply the gradient-based optimization algorithm. We use a modified gradient-descent algorithm to minimize our objective function and propose some probabilistic techniques to escape local optimum. We introduce an adaptive objective function which aims to explore various paths in the program. We implemented MaxAFL based on the original AFL. MaxAFL achieved increase of code coverage per time compared with three other fuzzers in six open-source Linux binaries. We also measured cumulative code coverage per total execution, and MaxAFL outperformed the other fuzzers in this metric. Finally, MaxAFL can also find more bugs than the other fuzzers.
+
 
 ### PathAFL: Path-Coverage Assisted Fuzzing (ASIA CCS 2020)
 
@@ -1550,7 +1608,7 @@ To resolve the issue, we propose coverage accounting, an innovative approach tha
 
 * <img src="image/youdao_note_24px.png">[Reading Note](http://note.youdao.com/noteshare?id=6a4b00d912eab145d1c1f32f11bde3e0&sub=7DADC02169A14B33979BCCB2556E4526)
 
-* <img src="image/GoSSIP_note.jpg">[Reading Note from GoSSIP](https://loccs.sjtu.edu.cn/gossip/blog/2019/06/05/redqueen-fuzzing-with-input-to-state-correspondence/)
+* <img src="image/GoSSIP_note.jpg">[Reading Note from GoSSIP](https://securitygossip.com/blog/2019/06/05/redqueen-fuzzing-with-input-to-state-correspondence/)
 
 * <img src="image/pdf_24px.png">[Paper](./Paper/NDSS19_REDQUEEN.pdf)
 
@@ -1567,7 +1625,7 @@ overcome common fuzzing roadblocks in a highly effective and efficient manner. O
 
 * <img src="image/pdf_24px.png">[Paper](./Paper/SP18_T-Fuzz.pdf)
 
-* <img src="image/github_24px.png">[Code]([https://github.com/Ljiee/fairfuzz](https://github.com/HexHive/T-Fuzz))
+* <img src="image/github_24px.png">[Code](https://github.com/HexHive/T-Fuzz)
 
 **Abstract:** Fuzzing is a simple yet effective approach to discover software bugs utilizing randomly generated inputs. However, it is limited by coverage and cannot find bugs hidden in deep execution paths of the program because the randomly generated inputs fail complex sanity checks, e.g., checks on magic values, checksums, or hashes. To improve coverage, existing approaches rely on imprecise heuristics or complex input mutation techniques (e.g., symbolic execution or taint analysis) to bypass sanity checks. Our novel method tackles coverage from a different angle: by removing sanity checks in the target program. T-Fuzz leverages a coverage-guided fuzzer to generate inputs. Whenever the fuzzer can no longer trigger new code paths, a light-weight, dynamic tracing based technique detects the input checks that the fuzzer-generated inputs fail. These checks are then removed from the target program. Fuzzing then continues on the transformed program, allowing the code protected by the removed checks to be triggered and potential bugs discovered. Fuzzing transformed programs to find bugs poses two challenges: (1) removal of checks leads to over-approximation and false positives, and (2) even for true bugs, the crashing input on the transformed program may not trigger the bug in the original program. As an auxiliary post-processing step, T-Fuzz leverages a symbolic execution-based approach to filter out false positives and reproduce true bugs in the original program. By transforming the program as well as mutating the input, T-Fuzz covers more code and finds more true bugs than any existing technique. We have evaluated T-Fuzz on the DARPA Cyber Grand Challenge dataset, LAVA-M dataset and 4 real-world programs (pngfix, tiffinfo, magick and pdftohtml). For the CGC dataset, T-Fuzz finds bugs in 166 binaries, Driller in 121, and AFL in 105. In addition, found 3 new bugs in previously-fuzzed programs and libraries.
 
@@ -1578,7 +1636,7 @@ overcome common fuzzing roadblocks in a highly effective and efficient manner. O
 
 * <img src="image/pdf_24px.png">[Paper](./Paper/ASE18_Fairfuzz.pdf)
 
-* <img src="image/github_24px.png">[Code](https://github.com/Ljiee/fairfuzz)
+* <img src="image/github_24px.png">[Code](https://github.com/carolemieux/afl-rb)
 
 **Abstract:** In recent years, fuzz testing has proven itself to be one of the most effective techniques for finding correctness bugs and security vulnerabilities in practice. One particular fuzz testing tool, American Fuzzy Lop (AFL), has become popular thanks to its ease-of-use and bug-finding power. However, AFL remains limited in the bugs it can find since it simply does not cover large regions of code. If it does not cover parts of the code, it will not find bugs there. We propose a two-pronged approach to increase the coverage achieved by AFL. First, the approach automatically identifies branches exercised by few AFL-produced inputs (rare branches), which often guard code that is empirically hard to cover by naively mutating inputs. The second part of the approach is a novel mutation mask creation algorithm, which allows mutations to be biased towards producing inputs hitting a given rare branch. This mask is dynamically computed during fuzz testing and can be adapted to other testing targets. We implement this approach on top of AFL in a tool named FairFuzz. We conduct evaluation on real-world programs against state-of-the-art versions of AFL. We find that on these programs FairFuzz achieves high branch coverage at a faster rate that state-of-the-art versions of AFL. In addition, on programs with nested conditional structure, it achieves sustained increases in branch coverage after 24 hours (average 10.6% increase). In qualitative analysis, we find that FairFuzz has an increased capacity to automatically discover keywords.
 
@@ -1875,6 +1933,8 @@ In this paper, we present sanitizer-guided fuzzing, a new design point in this s
 
 * <img src="image/GoSSIP_note.jpg">[Reading Note from GoSSIP](https://securitygossip.com/blog/2020/07/31/typestate-guided-fuzzer-for-discovering-use-after-free-vulnerabilities/)
 
+* <img src="image/wechat_24px.png">[Reading Note](https://mp.weixin.qq.com/s/RE19ba-BnQsZRST338lJHA)
+
 * <img src="image/pdf_24px.png">[Paper](https://www.scedt.tees.ac.uk/s.qin/papers/icse2020-uafl.pdf)
 
 * <img src="image/ppt_24px.png">[Slides](https://wcventure.github.io/pdf/ICSE2020_UAFL_Slides.pdf)
@@ -2168,6 +2228,14 @@ We implemented the exponential schedule by extending AFL. In 24 hours, AFLFAST e
 
 # Learning-based Fuzzing
 
+### OmniFuzz: A Flexible Framework for Expediting Bug Finding by Leveraging Past (Mis-)Behavior to Discover New Bugs (ACSAC 2020)
+
+* <img src="image/pdf_24px.png">[Paper](https://dl.acm.org/doi/pdf/10.1145/3427228.3427269)
+
+Among various fuzzing approaches, coverage-guided grey-box fuzzing is perhaps the most prominent, due to its ease of use and effectiveness. Using this approach, the selection of inputs focuses on maximizing program coverage, e.g., in terms of the different branches that have been traversed. In this work, we begin with the observation that selecting any input that explores a new path, and giving equal weight to all paths, can lead to severe inefficiencies. For instance, although seemingly "new" crashes involving previously unexplored paths may be discovered, these often have the same root cause and actually correspond to the same bug. 
+
+To address these inefficiencies, we introduce a framework that incorporates a tighter feedback loop to guide the fuzzing process in exploring truly diverse code paths. Our framework employs (i) a vulnerability-aware selection of coverage metrics for enhancing the effectiveness of code exploration, (ii) crash deduplication information for early feedback, and (iii) a configurable input culling strategy that interleaves multiple strategies to achieve comprehensiveness. A novel aspect of our work is the use of hardware performance counters to derive coverage metrics. We present an approach for assessing and selecting the hardware events that can be used as a meaningful coverage metric for a target program. The results of our empirical evaluation using real-world programs demonstrate the effectiveness of our approach: in some cases, we explore fewer than 50% of the paths compared to a base fuzzer (AFL, MOpt, and Fairfuzz), yet on average, we improve new bug discovery by 31%, and find the same bugs (as the base) 3.3 times faster. Moreover, although we specifically chose applications that have been subject to recent fuzzing campaigns, we still discovered 9 new vulnerabilities.
+
 ### Learning Input Tokens for Effective Fuzzing (ISSTA 2020)
 
 * <img src="image/pdf_24px.png">[Paper](https://doi.org/10.1145/3395363.3397348)
@@ -2263,7 +2331,7 @@ We introduce DeepSmith, a novel machine learning approach to accelerating compil
 
 ### Coverage Guided Differential Adversarial Testing of Deep Learning Systems (TNSE 2020)
 
-* <img src="image/pdf_24px.png">[Paper](https://arxiv.org/pdf/1911.07931)
+* <img src="image/pdf_24px.png">[Paper](https://commons.erau.edu/cgi/viewcontent.cgi?article=2502&context=publication)
 
 **Abstract:** Deep learning is increasingly applied to safety-critical application domains such as autonomous cars and medical devices. It is of significant importance to ensure their reliability and robustness. In this paper, we propose DLFuzz, the coverage guided differential adversarial testing framework to guide deep learing systems exposing incorrect behaviors. DLFuzz keeps minutely mutating the input to maximize the neuron coverage and the prediction difference between the original input and the mutated input, without manual labeling effort or cross-referencing oracles from other systems with the same functionality. We also design multiple novel strategies for neuron selection to improve the neuron coverage. The incorrect behaviors obtained by DLFuzz are then exploited for retraining and improving the dependability of the models. We present empirical evaluations on two well-known datasets to demonstrate its effectiveness. Compared with DeepXplore, the state-of-the-art deep learning white-box testing framework, DLFuzz does not require extra efforts to find similar functional deep learning systems for cross-referencing check. But DLFuzz could generate 338.59% more adversarial inputs with 89.82% smaller perturbations, while maintaining the identities of the original inputs. DLFuzz also managed to averagely obtain 2.86% higher neuron coverage, and save 20.11% time consumption with respect to DeepXplore. We then evaluate the effectiveness of strategies for neuron selection, and demonstrated that all these strategies perform better than DeepXplore. Finally, DLFuzz proved to be able to improve the accuracy of deep learning systems by incorporating these adversarial inputs to retrain.
 
@@ -2282,14 +2350,7 @@ We introduce DeepSmith, a novel machine learning approach to accelerating compil
 **Abstract:** In company with the data explosion over the past decade, deep neural network (DNN) based software has experienced unprecedented leap and is becoming the key driving force of many novel industrial applications, including many safety-critical scenarios such as autonomous driving. Despite great success achieved in various human intelligence tasks, similar to traditional software, DNNs could also exhibit incorrect behaviors caused by hidden defects causing severe accidents and losses. In this paper, we propose DeepHunter, an automated fuzz testing framework for hunting potential defects of general-purpose DNNs. DeepHunter performs metamorphic mutation to generate new semantically preserved tests, and leverages multiple plugable coverage criteria as feedback to guide the test generation from different perspectives. To be scalable towards practical-sized DNNs, DeepHunter maintains multiple tests in a batch, and prioritizes the tests selection based on active feedback. The effectiveness of DeepHunter is extensively investigated on 3 popular datasets (MNIST, CIFAR-10, ImageNet) and 7 DNNs with diverse complexities, under a large set of 6 coverage criteria as feedback. The large-scale experiments demonstrate that DeepHunter can (1) significantly boost the coverage with guidance; (2) generate useful tests to detect erroneous behaviors and facilitate the DNN model quality evaluation; (3) accurately capture potential defects during DNN quantization for platform migration
 
 
-### DLFuzz: Differential Fuzzing Testing of Deep Learning Systems (FSE 2018)
-
-* <img src="image/pdf_24px.png">[Paper](https://arxiv.org/pdf/1808.09413.pdf)
-
-**Abstract:** Deep learning (DL) systems are increasingly applied to safety-critical domains such as autonomous driving cars. It is of significant importance to ensure the reliability and robustness of DL systems. Existing testing methodologies always fail to include rare inputs in the testing dataset and exhibit low neuron coverage. In this paper, we propose DLFuzz, the frst differential fuzzing testing framework to guide DL systems exposing incorrect behaviors. DLFuzz keeps minutely mutating the input to maximize the neuron coverage and the prediction difference between the original input and the mutated input, without manual labeling effort or cross-referencing oracles from other DL systems with the same functionality. We present empirical evaluations on two well-known datasets to demonstrate its efficiency. Compared with DeepXplore, the state-of-the-art DL whitebox testing framework, DLFuzz does not require extra efforts to find similar functional DL systems for cross-referencing check, but could generate 338.59% more adversarial inputs with 89.82% smaller perturbations, averagely obtain 2.86% higher neuron coverage, and save 20.11% time consumption.
-
-
-### TensorFuzz: Debugging Neural Networks with Coverage-Guided Fuzzing (2018)
+### TensorFuzz: Debugging Neural Networks with Coverage-Guided Fuzzing (ICML 2019)
 
 * <img src="image/blog_24px.jpg">[Reading Note](https://medium.com/syncedreview/google-brain-tensorfuzz-debugs-neural-networks-with-coverage-guided-fuzzing-89843346fcda)
 
@@ -2300,12 +2361,11 @@ We introduce DeepSmith, a novel machine learning approach to accelerating compil
 **Abstract:** Machine learning models are notoriously difficult to interpret and debug. This is particularly true of neural networks. In this work, we introduce automated software testing techniques for neural networks that are well-suited to discovering errors which occur only for rare inputs. Specifically, we develop coverage-guided fuzzing (CGF) methods for neural networks. In CGF, random mutations of inputs to a neural network are guided by a coverage metric toward the goal of satisfying user-specified constraints. We describe how fast approximate nearest neighbor algorithms can provide this coverage metric. We then discuss the application of CGF to the following goals: finding numerical errors in trained neural networks, generating disagreements between neural networks and quantized versions of those networks, and surfacing undesirable behavior in character level language models. Finally, we release an open source library called TensorFuzz that implements the described techniques.
 
 
-### Coverage-Guided Fuzzing for Deep Neural Networks (2018)
+### DLFuzz: Differential Fuzzing Testing of Deep Learning Systems (FSE 2018)
 
-* <img src="image/pdf_24px.png">[Paper](./Paper/18_Deep-neural-networks.pdf)
+* <img src="image/pdf_24px.png">[Paper](https://arxiv.org/pdf/1808.09413.pdf)
 
-**Abstract:** In company with the data explosion over the past decade, deep neural network (DNN) based software has experienced unprecedented leap and is becoming the key driving force of many novel industrial applications, including many safety-critical scenarios such as autonomous driving. Despite great success achieved in various human intelligence tasks, similar to traditional software, DNNs could also exhibit incorrect behaviors caused by hidden defects causing severe accidents and losses. In this paper, we propose DeepHunter, an automated fuzz testing framework for hunting potential defects of general-purpose DNNs. DeepHunter performs metamorphic mutation to generate new semantically preserved tests, and leverages multiple plugable coverage criteria as feedback to guide the test generation from different perspectives. To be scalable towards practical-sized DNNs, DeepHunter maintains multiple tests in a batch, and prioritizes the tests selection based on active feedback. The effectiveness of DeepHunter is extensively investigated on 3 popular datasets (MNIST, CIFAR-10, ImageNet) and 7 DNNs with diverse complexities, under large set of 6 coverage criteria as feedback. The large-scale experiments demonstrate that DeepHunter can (1) significantly boost the coverage with guidance; (2) generate useful tests to detect erroneous behaviors and facilitate the DNN model quality evaluation; (3) accurately capture potential defects during DNN quantization for platform migration.
-
+**Abstract:** Deep learning (DL) systems are increasingly applied to safety-critical domains such as autonomous driving cars. It is of significant importance to ensure the reliability and robustness of DL systems. Existing testing methodologies always fail to include rare inputs in the testing dataset and exhibit low neuron coverage. In this paper, we propose DLFuzz, the frst differential fuzzing testing framework to guide DL systems exposing incorrect behaviors. DLFuzz keeps minutely mutating the input to maximize the neuron coverage and the prediction difference between the original input and the mutated input, without manual labeling effort or cross-referencing oracles from other DL systems with the same functionality. We present empirical evaluations on two well-known datasets to demonstrate its efficiency. Compared with DeepXplore, the state-of-the-art DL whitebox testing framework, DLFuzz does not require extra efforts to find similar functional DL systems for cross-referencing check, but could generate 338.59% more adversarial inputs with 89.82% smaller perturbations, averagely obtain 2.86% higher neuron coverage, and save 20.11% time consumption.
 
 
 # Data Flow Sensitive Fuzzing
@@ -2329,7 +2389,8 @@ We implemented a prototype of GREYONE and evaluated it on the LAVA data set and 
 
 * <img src="image/pdf_24px.png">[Paper](https://andreafioraldi.github.io/assets/weizz-issta2020.pdf)
 
-**Abstract:** Fuzzing technologies have evolved at a fast pace in recent years, revealing bugs in programs with ever increasing depth and speed. Applications working with complex formats are however more difficult to take on, as inputs need to meet certain format-specific characteristics to get through the initial parsing stage and reach deeper behaviors of the program.
+**Abstract:** Fuzzing technologies have evolved at a fast pace in recent years, revealing bugs in programs with ever increasing depth and speed. Applications working with complex 
+formats are however more difficult to take on, as inputs need to meet certain format-specific characteristics to get through the initial parsing stage and reach deeper behaviors of the program.
 
 Unlike prior proposals based on manually written format specifications, we propose a technique to automatically generate and mutate inputs for unknown chunk-based binary formats. We identify dependencies between input bytes and comparison instructions, and use them to assign tags that characterize the processing logic of the program. Tags become the building block for structure-aware mutations involving chunks and fields of the input.
 
@@ -2426,6 +2487,13 @@ We instantiate our approach to the problem of fuzzing smart contracts, a domain 
 
 # API Fuzzing
 
+### Intelligent REST API Data Fuzzing (FSE 2020)
+
+* <img src="image/pdf_24px.png">[Paper](https://patricegodefroid.github.io/public_psfiles/fse2020.pdf)
+
+**Abstract:** The cloud runs on REST APIs. In this paper, we study how to intelligently generate data payloads embedded in REST API requests in order to find data-processing bugs in cloud services. We discuss how to leverage REST API specifications, which, by definition, contain data schemas for API request bodies.  We then propose and evaluate a range of data fuzzing techniques, including structural schema fuzzing rules, various rule combinations, search heuristics, extracting data values from examples included in REST API specifications, and learning data values on-the-fly from previous service responses. After evaluating these techniques, we identify the top-performing combination and use this algorithm to fuzz several Microsoft Azure cloud services. During our experiments, we found 100s of “Internal Server Error” service crashes, which we triaged into 17 unique bugs and reported to Azure developers.  All these bugs are reproducible, confirmed, and fixed or in the process of being fixed.
+
+
 ### REST-ler: Stateful REST API Fuzzing (ICSE 2019)
 
 * <img src="image/pdf_24px.png">[Paper](./Paper/ICSE19_RESTler.pdf)
@@ -2434,8 +2502,34 @@ We instantiate our approach to the problem of fuzzing smart contracts, a domain 
 We present experimental results showing that these two techniques are necessary to thoroughly exercise a service under test while pruning the large search space of possible request sequences. We used REST-ler to test GitLab, a large open-source self-hosted Git service, as well as several Microsoft Azure and Office365 cloud services. REST-ler found 28 bugs in Gitlab and several bugs in each of the Azure and Office365 cloud services tested so far. These bugs have been confirmed by the service owners, and are either in the process of being fixed or have already been fixed.
 
 
-
 # Other Interesting Fuzzing
+
+### Fuzzing Technique in Web Applications and Beyond (MCTE 2020)
+
+* <img src="image/pdf_24px.png">[Paper](https://iopscience.iop.org/article/10.1088/1742-6596/1678/1/012109/pdf)
+
+**Abstract:** Web security is an old yet important topic. With the emergence of new applications and new threats, we need new techniques to fight against these threats. Fuzzing technique has been proven as an effective tool and has the potential of evolving with the new threats. In this paper, we discuss the applications of fuzzing technique in both web and other areas. We also present a case study by implementing a fuzzer in this study. 
+
+
+### Nyx: Greybox Hypervisor Fuzzing using Fast Snapshots and Affine Types (USENIX Security2021)
+
+* <img src="image/pdf_24px.png">[Paper](https://www.usenix.org/system/files/sec21summer_schumilo.pdf)
+
+* <img src="image/github_24px.png">[Code](https://github.com/RUB-SysSec/nyx)
+
+**Abstract:** A hypervisor (also know as virtual machine monitor, VMM) enforces the security boundaries between different virtual machines (VMs) running on the same physical machine. A malicious user who is able to run her own kernel on a cloud VM can interact with a large variety of attack surfaces. Exploiting a software fault in any of these surfaces leads to full access to all other VMs that are co-located on the same host. Hence, the efficient detection of hypervisor vulnerabilities is crucial for the security of the modern cloud infrastructure. Recent work showed that blind fuzzing is the most efficient approach to identify security issues in hypervisors, mainly due to an outstandingly high test throughput.
+
+In this paper we present the design and implementation of NYX, a highly optimized, coverage-guided hypervisor fuzzer. We show how a fast snapshot restoration mechanism that allows us to reload the system under test thousands of times per second is key to performance. Furthermore, we introduce a novel mutation engine based on custom bytecode programs, encoded as directed acyclic graphs (DAG), and affine types, that enables the required flexibility to express complex interactions. Our evaluation shows that, while NYX has a lower throughput than the state-of-the-art hypervisor fuzzer, it performs competitively on simple targets: NYX typically requires only a few minutes longer to achieve the same test coverage. On complex devices, however, our approach is able to significantly outperform existing works. Moreover, we are able to uncover substantially more bugs: in total, we uncovered 44 new bugs with 22 CVEs requested. Our results demonstrate that coverage guidance is highly valuable, even if a blind fuzzer can be significantly faster.
+
+### FREEDOM: Engineering a State-of-the-Art DOM Fuzzer (CCS 2020)
+
+* <img src="image/pdf_24px.png">[Paper](https://dl.acm.org/doi/pdf/10.1145/3372297.3423340)
+
+* <img src="image/github_24px.png">[Code](https://github.com/sslab-gatech/freedom)
+
+**Abstract:** The DOM engine of a web browser is a popular attack surface and has been thoroughly fuzzed during its development. A common approach adopted by the latest DOM fuzzers is to generate new inputs based on context-free grammars. However, such a generative approach fails to capture the data dependencies in the inputs of a DOM engine, namely, HTML documents. Meanwhile, it is unclear whether or not coverage-guided mutation, which is well-known to be effective in fuzzing numerous software, still remains to be effective against DOM engines. Worse yet, existing DOM fuzzers cannot adopt a coverage-guided approach because they are unable to fully support HTML mutation and suffer from low browser throughput. To scientifically understand the effectiveness and limitations of the two approaches, we propose FreeDom, a full-fledged cluster-friendly DOM fuzzer that works with both generative and coverage-guided modes. FreeDom relies on a context-aware intermediate representation to describe HTML documents with proper data dependencies. FreeDom also exhibits up to 3.74x higher throughput through browser self-termination. FreeDom has found 24 previously unknown bugs in commodity browsers including Safari, Firefox, and Chrome, and 10 CVEs has been assigned so far. With the context-aware generation, FreeDom finds 3x more unique crashes in WebKit than the state-of-the-art DOM fuzzer, Domato. FreeDom guided by coverage is more effective in revealing new code blocks (2.62%) and finds three complex bugs that its generative approach fails to find. However, coverage-guided mutation that bootstraps with an empty corpus triggers 3.8x fewer unique crashes than the generative approach. The newly revealed coverage, more often than not, negatively affects the effectiveness of DOM fuzzers in bug finding. Therefore, we consider context-aware generation the best practice to find more DOM engine bugs and expect further improvement on coverage-guided DOM fuzzing facilitated by FreeDom.
+
+
 
 ### SQUIRREL: Testing Database Management Systems with Language Validity and Coverage Feedback (CCS 2020)
 
@@ -2484,9 +2578,9 @@ We propose a novel coverage-guided fuzz testing tool for big data analytics, cal
 
 ### CrFuzz: Fuzzing Multi-purpose Programs through Input Validation (FSE 2020)
 
-* <img src="image/pdf_24px.png">[Paper]()
+* <img src="image/pdf_24px.png">[Paper](https://lifeasageek.github.io/papers/suhwan-crfuzz.pdf)
 
-**Abstract:** 
+**Abstract:** Fuzz testing has been proved its effectiveness in discovering software vulnerabilities. Empowered its randomness nature along with a coverage-guiding feature, fuzzing has been identified a vast number of vulnerabilities in real-world programs. This paper begins with an observation that the design of the current state-of-the-art fuzzers is not well suited for a particular (but yet important) set of software programs. Specifically, current fuzzers have limitations in fuzzing programs serving multiple purposes, where each purpose is controlled by extra options. This paper proposes CrFuzz, which overcomes this limitation. CrFuzz designs a clustering analysis to automatically predict if a newly given input would be accepted or not by a target program. Exploiting this prediction capability, CrFuzz is designed to efficiently explore the programs with multiple purposes. We employed CrFuzz for three state-of-the-art fuzzers, AFL, QSYM, and MOpt, and CrFuzz-augmented versions have shown 19.3% and 5.68% better path and edge coverage on average. More importantly, during two weeks of long-running experiments, CrFuzz discovered 277 previously unknown vulnerabilities where 212 of those are already confirmed and fixed by the respected vendors. We would like to emphasize that many of these vulnerabilities were discoverd from FFMpeg, ImageMagick, and Graphicsmagick, all of which are targets of Google’s OSS-Fuzz project and thus heavily fuzzed for last three years by far. Nevertheless, CrFuzz identified a remarkable number of vulnerabilities, demonstrating its effectiveness of vulnerability finding capability.
 
 
 
@@ -2590,6 +2684,8 @@ Our evaluation shows that we can find more bugs (over 2x) and coverage (as much 
 
 
 ### FuzzFactory: Domain-Specific Fuzzing with Waypoints (OOPSLA 2019)
+
+* <img src="image/csdn_24px.png">[Reading Note](https://blog.csdn.net/weixin_44728238/article/details/106528070)
 
 * <img src="image/pdf_24px.png">[Paper](./Paper/OOPSLA19_FuzzFactory.pdf)
 
