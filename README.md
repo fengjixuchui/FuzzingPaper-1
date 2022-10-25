@@ -58,7 +58,7 @@ Mirrors: [https://gitcode.net/mirrors/wcventure/FuzzingPaper](https://gitcode.ne
   - [MundoFuzz: Hypervisor Fuzzing with Statistical Coverage Testing and Grammar Inference]
   - [TheHuzz: Instruction Fuzzing of Processors Using Golden-Reference Models for Finding Software-Exploitable Vulnerabilities]
   - [Morphuzz: Bending (Input) Space to Fuzz Virtual Devices]
-  - [Fuzzware: Using Precise MMIO Modeling for Effective Firmware Fuzzing]
+  - [Fuzzware: Using Precise MMIO Modeling for Effective Firmware Fuzzing](#fuzzware-using-precise-mmio-modeling-for-effective-firmware-fuzzing)
   - [FuzzOrigin: Detecting UXSS vulnerabilities in Browsers through Origin Fuzzing]
   - [Drifuzz: Harvesting Bugs in Device Drivers from Golden Seeds]
   - [Fuzzing Hardware Like Software](#fuzzing-hardware-like-software-usenix-sec-2022)
@@ -84,7 +84,7 @@ Mirrors: [https://gitcode.net/mirrors/wcventure/FuzzingPaper](https://gitcode.ne
   - [On the Reliability of Coverage-Based Fuzzer Benchmarking](#on-the-reliability-of-coverage-based-fuzzer-benchmarking-icse-2022)
   - [Path Transitions Tell More: Optimizing Fuzzing Schedules via Runtime Program States](#path-transitions-tell-more-optimizing-fuzzing-schedules-via-runtime-program-states-icse-2022)
   - [R2Z2: Detecting Rendering Regressions in Web Browsers through Differential Fuzz Testing](#r2z2-detecting-rendering-regressions-in-web-browsers-through-differential-fuzz-testing-icse-2022)
-  - [Semantic Image Fuzzing of AI Perception Systems](#semantic-fuzzing-with-zest-issta-2019)
+  - [Semantic Image Fuzzing of AI Perception Systems](#semantic-image-fuzzing-of-ai-perception-systems)
   - [Free Lunch for Testing: Fuzzing Deep-Learning Libraries from Open Source](#free-lunch-for-testing-fuzzing-deep-learning-libraries-from-open-source-icse-2022)
   - [WindRanger: A Directed Greybox Fuzzer driven by Deviation Basic Block](#windranger-a-directed-greybox-fuzzer-driven-by-deviation-basic-block-icse-2022)
   - [MOREST: Model-based RESTful API Testing with Execution Feedback](#morest-model-based-restful-api-testing-with-execution-feedback-icse-2022)
@@ -196,6 +196,9 @@ Mirrors: [https://gitcode.net/mirrors/wcventure/FuzzingPaper](https://gitcode.ne
 - **SANER 2021**
   - [OTA: An Operation-oriented Time Allocation Strategy for Greybox Fuzzing](#ota-an-operation-oriented-time-allocation-strategy-for-greybox-fuzzing-saner-2021)
 
+- **JFLA 2022**
+  - [Alt-Ergo-Fuzz: A fuzzer for the Alt-Ergo SMT solver](#alt-ergo-fuzz-a-fuzzer-for-the-alt-ergo-smt-solver-jfla-2022)
+ 
 - **Others 2021**
   - [FuSeBMC v. 4: Smart Seed Generation for Hybrid Fuzzing (2021)](#fusebmc-v-4-smart-seed-generation-for-hybrid-fuzzing-2021)
   - [REST API Fuzzing by Coverage Level Guided Blackbox Testing (2021)](#rest-api-fuzzing-by-coverage-level-guided-blackbox-testing-2021)
@@ -667,6 +670,7 @@ Mirrors: [https://gitcode.net/mirrors/wcventure/FuzzingPaper](https://gitcode.ne
   - [AutoFuzz: Automated Network Protocol Fuzzing Framework (IJCSNS 2010)](#autofuzz-automated-network-protocol-fuzzing-framework-ijcsns-2010)
 
 - [**SMT Fuzzing**](#smt-fuzzing)
+  - [Alt-Ergo-Fuzz: A fuzzer for the Alt-Ergo SMT solver](#alt-ergo-fuzz-a-fuzzer-for-the-alt-ergo-smt-solver-jfla-2022)
   - [BanditFuzz: Fuzzing SMT Solvers with Multi-agent Reinforcement Learning (FM 2021)](#banditfuzz-fuzzing-smt-solvers-with-multi-agent-reinforcement-learning-fm-2021)
   - [Skeletal Approximation Enumeration for SMT Solver Testing (FSE 2021)](#skeletal-approximation-enumeration-for-smt-solver-testing-fse-2021)
   - [Fuzzing SMT Solvers via Two-Dimensional Input Space Exploration (ISSTA 2021)](#fuzzing-smt-solvers-via-two-dimensional-input-space-exploration-issta-2021)
@@ -1037,7 +1041,7 @@ Mirrors: [https://gitcode.net/mirrors/wcventure/FuzzingPaper](https://gitcode.ne
   - [FOT: A Versatile, Configurable, Extensible Fuzzing Framework (FSE 2018)](#fot-a-versatile-configurable-extensible-fuzzing-framework-fse-2018)
   - [Designing New Operating Primitives to Improve Fuzzing Performance (CCS 2017)](#designing-new-operating-primitives-to-improve-fuzzing-performance-ccs-2017)
   - [Chizpurfle: A Gray-Box Android Fuzzer for Vendor Service Customizations (ISSRE 2017)](#chizpurfle-a-gray-box-android-fuzzer-for-vendor-service-customizations-issre-2017)
-
+  - [Fuzzware: Using Precise MMIO Modeling for Effective Firmware Fuzzing](#fuzzware-using-precise-mmio-modeling-for-effective-firmware-fuzzing)
 
 
 
@@ -1807,6 +1811,16 @@ SSL encrypted protocols. As a proof of concept for efficiency of ESPIKE we demon
 
 
 # SMT Fuzzing
+
+### Alt-Ergo-Fuzz: A fuzzer for the Alt-Ergo SMT solver (JFLA 2022)
+
+* <img src="image/pdf_24px.png">[Paper](https://hal.inria.fr/hal-03626861/)
+
+* <img src="image/github_24px.png">[Code](https://github.com/hra687261/alt-ergo-fuzz)
+
+Alt-Ergo is an open source Satisfiability Modulo Theories (SMT) solver programmed in OCaml. It was designed for program verification and it’s used as a back end by other software verification tools such as Frama-C, SPARK, Why3, Atelier-B and Caveat, the reliability of which depends on the soundness of Alt-Ergo’s answers and the absence of bugs in it.
+Fuzzing is an efficient technique to test programs and find bugs. It works by quickly and automatically generating input data with which to test the software. American Fuzzy Lop (AFL) is one of the most well-known and most used fuzzers in both academia and the industry. It has managed to find many bugs in various programs thanks to its grey box fuzzing technique that uses genetic algorithms and program instrumentation to generate test data that maximizes code and execution path coverage in the targeted software.
+In this paper we present Alt-Ergo-Fuzz, a fuzzer for Alt-Ergo that we developed with the aim of finding faults and unsoundness bugs to solve and improve its reliability. By using AFL as a back end, the Crowbar OCaml library for test case generation and the CVC5 SMT solver as a reference solver of which the answers will be used to determine whether or not Alt-Ergo’s answers are correct, we managed to develop Alt-Ergo-Fuzz, which even as a work in progress and in only twenty days of testing managed to find four never found before bugs in Alt-Ergo.
 
 ### BanditFuzz: Fuzzing SMT Solvers with Multi-agent Reinforcement Learning (FM 2021)
 
@@ -4652,6 +4666,17 @@ In this paper, we tackle another way to improve the performance of fuzzing, whic
 
 **Abstract:** Android has become the most popular mobile OS, as it enables device manufacturers to introduce customizations to compete with value-added services. However, customizations make the OS less dependable and secure, since they can introduce software flaws. Such flaws can be found by using fuzzing, a popular testing technique among security researchers.This paper presents Chizpurfle, a novel "gray-box" fuzzing tool for vendor-specific Android services. Testing these services is challenging for existing tools, since vendors do not provide source code and the services cannot be run on a device emulator. Chizpurfle has been designed to run on an unmodified Android OS on an actual device. The tool automatically discovers, fuzzes, and profiles proprietary services. This work evaluates the applicability and performance of Chizpurfle on the Samsung Galaxy S6 Edge, and discusses software bugs found in privileged vendor services
 
+### Fuzzware: Using Precise MMIO Modeling for Effective Firmware Fuzzing (USENIX Security2022)
+
+* <img src="image/pdf_24px.png">[Paper](https://www.usenix.org/system/files/sec22summer_scharnowski.pdf)
+
+* <img src="image/github_24px.png">[Code](https://github.com/fuzzware-fuzzer/fuzzware)
+
+**Abstract:** As embedded devices are becoming more pervasive in our everyday lives, they turn into an attractive target for adversaries. Despite their high value and large attack surface, applying automated testing techniques such as fuzzing is not straightforward for such devices. As fuzz testing firmware on constrained embedded devices is inefficient, state-of-the-art approaches instead opt to run the firmware in an emulator (through a process called re-hosting). However, existing approaches either use coarse-grained static models of hardware behavior or require manual effort to re-host the firmware.
+
+We propose a novel combination of lightweight program analysis, re-hosting, and fuzz testing to tackle these challenges. We present the design and implementation of Fuzzware, a software-only system to fuzz test unmodified monolithic firmware in a scalable way. By determining how hardware-generated values are actually used by the firmware logic, Fuzzware can automatically generate models that help focusing the fuzzing process on mutating the inputs that matter, which drastically improves its effectiveness.
+
+We evaluate our approach on synthetic and real-world targets comprising a total of 19 hardware platforms and 77 firmware images. Compared to state-of-the-art work, Fuzzware achieves up to 3.25 times the code coverage and our modeling approach reduces the size of the input space by up to 95.5%. The synthetic samples contain 66 unit tests for various hardware interactions, and we find that our approach is the first generic re-hosting solution to automatically pass all of them. Fuzzware discovered 15 completely new bugs including bugs in targets which were previously analyzed by other works; a total of 12 CVEs were assigned.
 
 
 ##### Page Traffic Analysis
